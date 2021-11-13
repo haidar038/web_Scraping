@@ -13,8 +13,8 @@ username = driver.find_element_by_css_selector("input[name='username']")
 password = driver.find_element_by_css_selector("input[name='password']")
 username.clear()
 password.clear()
-username.send_keys("mhmmd.haidar_05")
-password.send_keys("betabeta@01")
+username.send_keys("your username")
+password.send_keys("your password")
 login = driver.find_element_by_css_selector("button[type='submit']").click()
 
 #save your login info?
@@ -72,4 +72,4 @@ for post in posts:
 
 	driver.close()
 	
-#Sumber > https://medium.com/analytics-vidhya/web-scraping-instagram-with-selenium-python-b8e77af32ad4
+#Source > https://medium.com/analytics-vidhya/web-scraping-instagram-with-selenium-python-b8e77af32ad4
