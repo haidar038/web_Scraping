@@ -32,4 +32,4 @@ for ws in wb.worksheets:
         ws['B' + str(row_a)].value = url_username
 
 driver.close()
-wb.save('hasil_scrap.xlsx') #Simpan sebagai berkas excel baru
+wb.save('scrap_result.xlsx') #Save the result as excel doc
