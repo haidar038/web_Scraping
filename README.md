@@ -37,7 +37,7 @@ or install using pip :
 To be able to include images (jpeg, png, bmp,…) into an openpyxl file, you will also need the “pillow” library that can be installed with :
 > ```pip install pillow```
 
-And the you can install it using pip :
+And the you can install openpyxl using pip :
 > ```pip install openpyxl```
 
 ## Closing
